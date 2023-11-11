@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dados</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script></head>
+<body>
+    <div class="container mt-5">
+        <h2>Dados Pessoais</h2>
+            <h3>Nome: {{agendamento.nome}}</h3>
+            <h3>CPF: {{agendamento.cpf}}</h3>
+            <h3>Data de Nascimento: {{agendamento.dataNascimento}}</h3>
+            <h3>Endereço: {{agendamento.endereco}}</h3>
+            <h3>UF: {{agendamento.uf}}</h3>
+            <h3>CEP: {{agendamento.cep}}</h3>
+            <h3>Email: {{agendamento.email}}</h3>
+            <h3>Telefone: {{agendamento.telefone}}</h3>
+            <br>
+        <h2>Dados da consulta</h2>
+            <h3>Especialidade Médica: {{agendamento.especialidade}}</h3>
+            <h3>Data da Consulta: {{agendamento.dataConsulta}}</h3>
+            <h3>Horário da Consulta: {{agendamento.horaConsulta}}</h3>
+            <h3>medicamentos Alérgicos: {{agendamento.medicamentosAlergicos}}</h3>
+            <h3>informações Adicionais: {{agendamento.informacoesAdicionais}}</h3>
+        <a href="/">Voltar</a>
+    </div>
+</body>
+</html>
